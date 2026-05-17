@@ -1,0 +1,318 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="A resume-based portfolio website for showcasing experience, projects, skills, and contact information."
+    />
+    <title>Shivam Singh | Software Engineer</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="leaf-field" aria-hidden="true"></div>
+    <header class="site-header">
+      <nav class="nav" aria-label="Primary navigation">
+        <a class="brand" href="#top" aria-label="Go to homepage">SS</a>
+        <button
+          class="menu-toggle"
+          type="button"
+          aria-expanded="false"
+          aria-controls="primary-menu"
+        >
+          <span class="sr-only">Toggle menu</span>
+          <span></span>
+          <span></span>
+          <span></span>
+        </button>
+        <ul id="primary-menu" class="nav-links">
+          <li><a href="#about">About</a></li>
+          <li><a href="#experience">Experience</a></li>
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#skills">Skills</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <main id="top">
+      <section class="hero section">
+        <div class="hero-content">
+          <h1>Shivam Singh</h1>
+          <p class="hero-title">Software Engineer | Java, Spring Boot, Microservices</p>
+          <p class="hero-copy">
+            Software engineer with experience building backend services,
+            production-support workflows, REST APIs, and Java-based systems for
+            enterprise applications.
+          </p>
+          <div class="hero-actions" aria-label="Primary actions">
+            <a class="button primary" href="#projects">View Projects</a>
+            <a class="button secondary" href="#contact">Contact Me</a>
+          </div>
+        </div>
+        <aside class="hero-panel" aria-label="Resume highlights">
+          <div>
+            <span class="metric">3</span>
+            <span class="metric-label">Years Experience</span>
+          </div>
+          <div>
+            <span class="metric">3</span>
+            <span class="metric-label">Companies</span>
+          </div>
+          <div>
+            <span class="metric">2</span>
+            <span class="metric-label">Featured Projects</span>
+          </div>
+        </aside>
+      </section>
+
+      <section id="about" class="section content-band">
+        <div class="section-heading">
+          <h2>About Me</h2>
+        </div>
+        <div class="two-column">
+          <p>
+            I am a software engineer focused on backend development, APIs, and
+            enterprise application support. My work has included Java and Spring
+            Boot microservices, payment-response handling, customer messaging
+            workflows, and production issue resolution.
+          </p>
+          <p>
+            I enjoy working on reliable systems, clean APIs, database-backed
+            applications, and practical fixes that improve application security
+            and code quality.
+          </p>
+        </div>
+      </section>
+
+      <section id="experience" class="section">
+        <div class="section-heading">
+          <h2>Professional Experience</h2>
+        </div>
+        <div class="timeline">
+          <article class="timeline-item">
+            <div class="timeline-meta">
+              <span>May 2022 - Nov 2022</span>
+              <strong>Tata Consultancy Services</strong>
+            </div>
+            <div>
+              <h3>System Engineer</h3>
+              <p>
+                Developed a microservice to process customer data and send
+                campaign messages on WhatsApp, built an API to consume payment
+                responses and update customer status, and resolved bugs and
+                defects raised by the testing team.
+              </p>
+            </div>
+          </article>
+          <article class="timeline-item">
+            <div class="timeline-meta">
+              <span>Dec 2019 - Dec 2021</span>
+              <strong>Infosys</strong>
+            </div>
+            <div>
+              <h3>System Engineer</h3>
+              <p>
+                Supported an Adobe AEM-based application for a US-based client,
+                resolved user-raised production tickets, and fixed application
+                issues raised by the business in a timely manner.
+              </p>
+            </div>
+          </article>
+          <article class="timeline-item">
+            <div class="timeline-meta">
+              <span>Jul 2019 - Dec 2019</span>
+              <strong>Amdocs</strong>
+            </div>
+            <div>
+              <h3>System Engineer</h3>
+              <p>
+                Fixed SQL injection vulnerabilities with input validation and
+                prepared statements, and improved code quality by resolving
+                SonarQube vulnerabilities.
+              </p>
+            </div>
+          </article>
+        </div>
+      </section>
+
+      <section id="projects" class="section content-band">
+        <div class="section-heading">
+          <h2>Selected Work</h2>
+        </div>
+        <div class="project-grid">
+          <article class="card">
+            <p class="card-kicker">Featured Project</p>
+            <h3>Contact Management System</h3>
+            <p>
+              Built backend REST APIs for a contact management system using
+              Java 8, Spring Boot, Oracle DB, and AWS. Added CRUD operations,
+              Spring Security with Auth0, and Swagger documentation.
+            </p>
+            <a href="#contact" aria-label="Contact Shivam about Contact Management System">Discuss project</a>
+          </article>
+          <article class="card">
+            <p class="card-kicker">Case Study</p>
+            <h3>News Classification</h3>
+            <p>
+              Built a Python and Django web app that crawls BBC news articles,
+              stores them in a database, classifies articles with logistic
+              regression, and displays news by selected category.
+            </p>
+            <a href="#contact" aria-label="Contact Shivam about News Classification">Discuss project</a>
+          </article>
+          <article class="card">
+            <p class="card-kicker">Achievement</p>
+            <h3>VITMEE Rank 180</h3>
+            <p>
+              Obtained rank 180 in the VIT entrance exam, leading to a Master
+              of Computer Applications program at Vellore Institute of
+              Technology.
+            </p>
+            <a href="#education" aria-label="View Shivam's education">View education</a>
+          </article>
+        </div>
+      </section>
+
+      <section id="skills" class="section">
+        <div class="section-heading">
+          <h2>Technical Skills</h2>
+        </div>
+        <div class="skills-grid" aria-label="Skill categories">
+          <div>
+            <h3>Technical</h3>
+            <ul class="pill-list">
+              <li>
+                <img class="skill-logo-img" src="https://cdn.simpleicons.org/openjdk/F89820" alt="" loading="lazy" />
+                Java 8
+              </li>
+              <li>
+                <img class="skill-logo-img" src="https://cdn.simpleicons.org/python/3776AB" alt="" loading="lazy" />
+                Python
+              </li>
+              <li>
+                <img class="skill-logo-img" src="https://cdn.simpleicons.org/go/00ADD8" alt="" loading="lazy" />
+                Go
+              </li>
+              <li>
+                <svg class="skill-logo-svg" aria-hidden="true" viewBox="0 0 24 24">
+                  <path d="M4 6.5C4 4.57 7.58 3 12 3s8 1.57 8 3.5v11C20 19.43 16.42 21 12 21s-8-1.57-8-3.5v-11Zm2 0C6 7.28 8.28 8.8 12 8.8s6-1.52 6-2.3S15.72 4.2 12 4.2 6 5.72 6 6.5Zm0 3.12v2.78c0 .78 2.28 2.3 6 2.3s6-1.52 6-2.3V9.62c-1.43.86-3.55 1.38-6 1.38s-4.57-.52-6-1.38Zm0 6v1.88c0 .78 2.28 2.3 6 2.3s6-1.52 6-2.3v-1.88c-1.43.86-3.55 1.38-6 1.38s-4.57-.52-6-1.38Z" />
+                </svg>
+                SQL
+              </li>
+            </ul>
+          </div>
+          <div>
+            <h3>Backend</h3>
+            <ul class="pill-list">
+              <li>
+                <img class="skill-logo-img" src="https://cdn.simpleicons.org/springboot/6DB33F" alt="" loading="lazy" />
+                Spring Boot
+              </li>
+              <li>
+                <svg class="skill-logo-svg" aria-hidden="true" viewBox="0 0 24 24">
+                  <path d="M7 7.5a3.5 3.5 0 0 1 3.5-3.5H13a1 1 0 1 1 0 2h-2.5a1.5 1.5 0 0 0 0 3H13a1 1 0 1 1 0 2h-2.5A3.5 3.5 0 0 1 7 7.5Zm4 8a1 1 0 0 1 1-1h1.5a1.5 1.5 0 0 0 0-3H12a1 1 0 1 1 0-2h1.5a3.5 3.5 0 1 1 0 7H12a1 1 0 0 1-1-1ZM3 12a1 1 0 0 1 1-1h3a1 1 0 1 1 0 2H4a1 1 0 0 1-1-1Zm14 0a1 1 0 0 1 1-1h2a1 1 0 1 1 0 2h-2a1 1 0 0 1-1-1Z" />
+                </svg>
+                REST APIs
+              </li>
+              <li>
+                <svg class="skill-logo-svg" aria-hidden="true" viewBox="0 0 24 24">
+                  <path d="M4 5.5A2.5 2.5 0 0 1 6.5 3h2A2.5 2.5 0 0 1 11 5.5v2A2.5 2.5 0 0 1 8.5 10h-2A2.5 2.5 0 0 1 4 7.5v-2Zm9 0A2.5 2.5 0 0 1 15.5 3h2A2.5 2.5 0 0 1 20 5.5v2a2.5 2.5 0 0 1-2.5 2.5h-2A2.5 2.5 0 0 1 13 7.5v-2ZM4 16.5A2.5 2.5 0 0 1 6.5 14h2a2.5 2.5 0 0 1 2.5 2.5v2A2.5 2.5 0 0 1 8.5 21h-2A2.5 2.5 0 0 1 4 18.5v-2Zm9 0a2.5 2.5 0 0 1 2.5-2.5h2a2.5 2.5 0 0 1 2.5 2.5v2a2.5 2.5 0 0 1-2.5 2.5h-2a2.5 2.5 0 0 1-2.5-2.5v-2Z" />
+                </svg>
+                Microservices
+              </li>
+              <li>
+                <svg class="skill-logo-svg" aria-hidden="true" viewBox="0 0 24 24">
+                  <path d="M4 6.5C4 4.57 7.58 3 12 3s8 1.57 8 3.5v11C20 19.43 16.42 21 12 21s-8-1.57-8-3.5v-11Zm2 0C6 7.28 8.28 8.8 12 8.8s6-1.52 6-2.3S15.72 4.2 12 4.2 6 5.72 6 6.5Zm0 3.12v2.78c0 .78 2.28 2.3 6 2.3s6-1.52 6-2.3V9.62c-1.43.86-3.55 1.38-6 1.38s-4.57-.52-6-1.38Zm0 6v1.88c0 .78 2.28 2.3 6 2.3s6-1.52 6-2.3v-1.88c-1.43.86-3.55 1.38-6 1.38s-4.57-.52-6-1.38Z" />
+                </svg>
+                Databases
+              </li>
+            </ul>
+          </div>
+          <div>
+            <h3>Tools</h3>
+            <ul class="pill-list">
+              <li>
+                <img class="skill-logo-img" src="https://cdn.simpleicons.org/git/F05032" alt="" loading="lazy" />
+                Git
+              </li>
+              <li>
+                <img class="skill-logo-img" src="https://cdn.simpleicons.org/apachemaven/C71A36" alt="" loading="lazy" />
+                Maven
+              </li>
+              <li>
+                <img class="skill-logo-img" src="assets/aws-elastic-beanstalk.svg" alt="" loading="lazy" />
+                AWS Elastic Beanstalk
+              </li>
+              <li>
+                <img class="skill-logo-img" src="https://cdn.simpleicons.org/swagger/85EA2D" alt="" loading="lazy" />
+                Swagger
+              </li>
+            </ul>
+          </div>
+        </div>
+      </section>
+
+      <section id="education" class="section content-band">
+        <div class="section-heading">
+          <h2>Education & Certifications</h2>
+        </div>
+        <div class="education-list">
+          <article>
+            <h3>Master of Computer Applications</h3>
+            <p>Vellore Institute of Technology - CGPA 9.00 / 10.00 - May 2019</p>
+          </article>
+          <article>
+            <h3>Bachelor of Computer Applications</h3>
+            <p>Bikaner University - CGPA 7.50 / 10.00 - June 2017</p>
+          </article>
+        </div>
+      </section>
+
+      <section id="contact" class="section contact">
+        <div>
+          <h2>Let's Build Something Useful</h2>
+          <p>
+            I am open to software engineering roles focused on backend systems,
+            APIs, Java, Spring Boot, and enterprise application development.
+          </p>
+        </div>
+        <div class="contact-links">
+          <a class="contact-tile icon-link gmail" href="mailto:shivamsingh794@gmail.com" aria-label="Email Shivam on Gmail" title="Gmail">
+            <svg aria-hidden="true" viewBox="0 0 24 24">
+              <path d="M3.5 6.75v10.5A1.75 1.75 0 0 0 5.25 19h13.5a1.75 1.75 0 0 0 1.75-1.75V6.75L12 13.1 3.5 6.75Z" />
+              <path d="M4.6 5h14.8c.43 0 .8.15 1.1.42L12 11.78 3.5 5.42C3.8 5.15 4.17 5 4.6 5Z" />
+            </svg>
+            <span>Gmail</span>
+          </a>
+          <a class="contact-tile icon-link linkedin" href="https://www.linkedin.com/in/shivammmmm" aria-label="Open Shivam's LinkedIn profile" title="LinkedIn">
+            <svg aria-hidden="true" viewBox="0 0 24 24">
+              <path d="M5.2 8.9h3.1V19H5.2V8.9Zm1.55-4.9a1.8 1.8 0 1 1 0 3.6 1.8 1.8 0 0 1 0-3.6ZM10.4 8.9h2.95v1.38h.04c.41-.78 1.42-1.6 2.92-1.6 3.12 0 3.69 2.05 3.69 4.72V19h-3.08v-4.96c0-1.18-.02-2.7-1.65-2.7-1.65 0-1.9 1.29-1.9 2.62V19H10.4V8.9Z" />
+            </svg>
+            <span>LinkedIn</span>
+          </a>
+          <a class="contact-tile icon-link github" href="https://github.com/Codemode128" aria-label="Open Shivam's GitHub profile" title="GitHub">
+            <svg aria-hidden="true" viewBox="0 0 24 24">
+              <path d="M12 2.8a9.2 9.2 0 0 0-2.9 17.93c.46.08.63-.2.63-.44v-1.6c-2.57.56-3.12-1.1-3.12-1.1-.42-1.06-1.03-1.34-1.03-1.34-.84-.57.06-.56.06-.56.93.07 1.42.96 1.42.96.82 1.41 2.16 1 2.68.77.08-.6.32-1 .58-1.23-2.05-.23-4.2-1.03-4.2-4.57 0-1.01.36-1.84.95-2.48-.1-.24-.41-1.18.09-2.45 0 0 .78-.25 2.53.95A8.8 8.8 0 0 1 12 7.33c.78 0 1.56.1 2.3.31 1.75-1.2 2.52-.95 2.52-.95.5 1.27.19 2.21.1 2.45.59.64.94 1.47.94 2.48 0 3.55-2.16 4.33-4.21 4.56.33.29.62.84.62 1.7v2.41c0 .24.17.53.64.44A9.2 9.2 0 0 0 12 2.8Z" />
+            </svg>
+            <span>GitHub</span>
+          </a>
+          <a class="contact-tile resume-link" href="SWE_Resume_Shivam.pdf" aria-label="Download Shivam's resume">
+            <svg aria-hidden="true" viewBox="0 0 24 24">
+              <path d="M12 3a1 1 0 0 1 1 1v8.6l2.8-2.8a1 1 0 1 1 1.4 1.4l-4.5 4.5a1 1 0 0 1-1.4 0l-4.5-4.5a1 1 0 0 1 1.4-1.4l2.8 2.8V4a1 1 0 0 1 1-1Z" />
+              <path d="M5 17a1 1 0 0 1 1 1v1h12v-1a1 1 0 1 1 2 0v2a1 1 0 0 1-1 1H5a1 1 0 0 1-1-1v-2a1 1 0 0 1 1-1Z" />
+            </svg>
+            <span>Resume</span>
+          </a>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <p>&copy; <span id="year"></span> Shivam Singh. All rights reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
